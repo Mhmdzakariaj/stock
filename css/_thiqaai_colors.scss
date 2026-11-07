@@ -1,0 +1,58 @@
+:root,
+:root[data-glpi-theme] {
+    --tblr-primary-rgb: 0, 7, 59;
+    --tblr-primary: rgb(var(--tblr-primary-rgb));
+    --tblr-primary-fg: #ffffff;
+    --tblr-primary-darken: color-mix(in srgb, var(--tblr-primary), black 10%);
+    --tblr-secondary-rgb: 0, 81, 213;
+    --tblr-secondary: rgb(var(--tblr-secondary-rgb));
+    --tblr-secondary-fg: #ffffff;
+    --tblr-tertiary: #00101b;
+    --tblr-info: #0094cf;
+    --tblr-link-color-rgb: 0, 81, 213;
+    --tblr-link-color: rgb(var(--tblr-link-color-rgb));
+    --tblr-success: #0094cf;
+    --tblr-danger: #ba1a1a;
+    --tblr-danger-rgb: 186, 26, 26;
+    --tblr-danger-fg: #ffffff;
+
+    --tblr-body-bg: #f7f9fb;
+    --tblr-body-color: #191c1e;
+    --tblr-bg-surface: #ffffff;
+    --tblr-bg-surface-secondary: #f2f4f6;
+    --tblr-bg-surface-tertiary: #eceef0;
+    --tblr-bg-surface-dark: #e0e3e5;
+    --tblr-muted: #454651;
+    --tblr-muted-darken: #191c1e;
+    --tblr-navbar-color: #191c1e;
+    --tblr-border-color: #c6c5d2;
+    --tblr-border-color-translucent: rgba(118, 118, 130, 0.25);
+    --tblr-light: #f7f9fb;
+    --tblr-dark: #2d3133;
+
+    --glpi-mainmenu-bg: #00073b;
+    --glpi-mainmenu-fg: #ffffff;
+    --glpi-mainmenu-fg-muted: rgba(255, 255, 255, 0.7);
+    --glpi-mainmenu-active-bg: #0a1a66;
+    --glpi-helpdesk-header: #00073b;
+    --glpi-search-bg: #ffffff;
+    --glpi-search-fg: #191c1e;
+    --glpi-search-border-color: #c6c5d2;
+    --glpi-fg-secondary: #ffffff;
+    --glpi-tabs-bg: #f2f4f6;
+    --glpi-tabs-fg: #454651;
+    --glpi-tabs-border-color: #c6c5d2;
+    --glpi-tabs-active-bg: #ffffff;
+    --glpi-tabs-active-fg: #191c1e;
+    --glpi-form-header-fg: #00073b;
+    --glpi-form-header-bg: #eceef0;
+    --glpi-form-header-border-color: #c6c5d2;
+    --glpi-hover-bg: rgba(0, 81, 213, 0.08);
+    --glpi-badge-bg: rgba(0, 81, 213, 0.09);
+    --glpi-badge-fg: #0051d5;
+    --glpi-helpdesk-tiles-section-bg: #f2f4f6;
+    --glpi-helpdesk-tabs-section-bg: #ffffff;
+
+    --glpi-illustrations-background: #ffffff;
+    --glpi-illustrations-primary: #00073b;
+}
